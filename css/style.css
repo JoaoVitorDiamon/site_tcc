@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    background-color: #01002B;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    width: 5%;
+    padding: 5px 25px;
+}
+.header{
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 100%;
+    height: 140px;
+}
+.bg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.25;
+}
+.navigation-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation-header ul{
+    width: 42rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 42px;
+
+}
+.navigation-header ul a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+}
+.navigation-header h1{
+    font-family: 'Poppins';
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 10rem;
+    margin-top: 1.8rem;
+}
+
+
+
+
+/* MAIN 1 */
+
+
+
+
+.conversionTitle{
+    width: 56%;
+    height: 20rem;
+}
+.conversionTitle{
+    height: 20rem;
+    margin-top: 0.5rem;
+    padding: 0px 8rem;
+    font-family: 'Poppins';
+    font-size: 80px;
+    color: white;
+    font-weight: 200;
+}
+.p2{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.conversionText{
+    position: absolute;
+    margin-top: 22rem;
+    font-family: 'Poppins';
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    width: 42%;
+    margin-left: 8rem;
+}
+main{
+    display: flex;
+    box-sizing: border-box;
+    height: 2000px;
+}
+.Btn-Download-Apple{
+    position: absolute;
+    padding-top: 38.5rem;
+    padding-left: 14.5rem;
+    height: auto;
+    width: auto;
+}
+.Btn-Download-Android{
+    height: auto;
+    width: auto;
+    position: absolute;
+    padding-top: 38.5rem;
+    padding-left: 39rem;
+}
+.IphoneModel{
+    display: flex;
+    position: absolute;
+    margin-left: 90rem;
+    padding-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+/*  MAIN 2 */
+
+
+
+
+
+
+
+.SecondSection{
+    width: 100%;
+    height: 080px;
+}
+.fade{
+    position: absolute;
+    margin-top: -70rem ;
+    width: 100%;
+    height: 680px;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, #01002A 0%, rgba(61,6,154,1) 41%, rgba(61,6,154,1) 53%, #01002A 100%);
+}
+.Details{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: 200px;
+    margin-left: 8rem;
+    gap: 400px;
+    top: 72rem;
+}
+
+
+
+
+
+
+
+
+
+/*SERVICOS 1*/
+
+
+.divPraticidade{
+    width: 420px;
+    height: 144px;
+}
+.divConvidados{
+    width: 420px;
+    height: 144px;
+}
+.divOrcamentos{
+    width: 450px;
+    height: 144px;
+}
+.divOrcamentos h1{
+    width: 400px;
+}
+section div h1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 32px;
+    width: 424px;
+}
+section p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 32px;
+}
+
+
+
+
+
+
+/* Info */
+.Info{
+    position: absolute;
+    top: 102rem;
+    width: 100%;
+    height: 80rem;
+
+}
+.title2{
+    font-family: 'Poppins';
+    font-size: 80px;
+    width: 50%;
+    margin-left: 8rem;
+    z-index: 1;
+}
+.info li{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.IphoneModel2{
+    position: absolute;
+    top: 25rem;
+    width: 32%;
+    margin-left: 15rem;
+}
+.ElipseBlur{
+    position: absolute;
+    top: -2rem;
+    z-index: -1;
+    margin-left: 0rem;
+    width: 100rem;
+    height: 110rem;
+    opacity: 0.8;
+}
+.InfosContainer{
+    position: absolute;
+    width: 960px;
+    height: auto;
+    margin-left: 84rem;
+    font-weight: 200;
+    display: flex;
+}
+
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.4);
+    width: 100%;
+    height: 230px;
+    bottom: -140rem;
+    z-index: 2;
+}
+footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li a{
+    z-index: 1;
+    font-family: 'Poppins';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
